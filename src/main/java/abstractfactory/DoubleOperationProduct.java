@@ -1,4 +1,4 @@
-package abstractFactory;
+package abstractfactory;
 
 public class DoubleOperationProduct extends AbstractOperationProduct {
     @Override
@@ -7,7 +7,7 @@ public class DoubleOperationProduct extends AbstractOperationProduct {
         double secondNumber = getSecondNumber();
 
         System.out.println(firstNumber + " + " + secondNumber + " = " + add());
-        System.out.println(firstNumber + " - " + secondNumber + " = " + substract());
+        System.out.println(firstNumber + " - " + secondNumber + " = " + subtract());
         System.out.println(firstNumber + " * " + secondNumber + " = " + multiply());
         System.out.println(firstNumber + " / " + secondNumber + " = " + divide());
     }

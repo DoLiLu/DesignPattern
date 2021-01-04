@@ -1,4 +1,4 @@
-package abstractFactory;
+package abstractfactory;
 
 public class DoubleOperationFactory extends AbstractOperationFactory {
     @Override

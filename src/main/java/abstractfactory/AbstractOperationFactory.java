@@ -1,4 +1,4 @@
-package abstractFactory;
+package abstractfactory;
 
 public abstract class AbstractOperationFactory {
     public abstract AbstractOperationProduct createOperationProduct();

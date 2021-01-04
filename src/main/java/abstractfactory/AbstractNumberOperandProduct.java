@@ -1,4 +1,4 @@
-package abstractFactory;
+package abstractfactory;
 
 public abstract class AbstractNumberOperandProduct {
     private String value;

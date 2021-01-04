@@ -1,4 +1,4 @@
-package abstractFactory;
+package abstractfactory;
 
 public abstract class AbstractOperationProduct {
     private AbstractNumberOperandProduct firstNumberOperandProduct;
@@ -33,7 +33,7 @@ public abstract class AbstractOperationProduct {
         return firstNumber * secondNumber;
     }
 
-    public double substract(){
+    public double subtract(){
         double firstNumber = getFirstNumber();
         double secondNumber = getSecondNumber();
 
