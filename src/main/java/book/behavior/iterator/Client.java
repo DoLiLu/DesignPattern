@@ -7,7 +7,7 @@ public class Client {
 		OperationAggregate operationAggregate = new OperationAggregate();
 
 		operationAggregate.addOperation(new AddOperation());
-		operationAggregate.addOperation(new SubstractOperation());
+		operationAggregate.addOperation(new SubtractOperation());
 		operationAggregate.addOperation(new MultiplyOperation());
 		operationAggregate.addOperation(new DivideOperation());
 

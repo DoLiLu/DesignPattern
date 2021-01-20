@@ -1,6 +1,6 @@
 package book.behavior.iterator;
 
-public class SubstractOperation extends AbstractOperation {
+public class SubtractOperation extends AbstractOperation {
 
 	@Override
 	protected int getAnswer(int firstNumber, int secondNumber) {
